@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+html, body, main {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background: #2f3542;
+}
+
+*,
+*::before
+*::after {
+    box-sizing: inherit;
+}
